@@ -69,9 +69,9 @@ public class JobForm {
         return employers;
     }
 
-    public void setEmployers(ArrayList<Employer> employers) {
-        this.employers = employers;
-    }
+    public void setEmployers(ArrayList<Employer> employers) { this.employers = employers; }
+
+
 
     public ArrayList<Location> getLocations() {
         return locations;
